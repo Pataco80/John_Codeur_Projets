@@ -220,3 +220,18 @@ main {
   width: 100%;
   align-items: center;
 }
+
+.section,
+.wrapper {
+  display: flex;
+  max-width: 75rem;
+  width: 100%;
+  padding: 5vw;
+}
+
+@media all and (min-width: 35rem) {
+  .section,
+  .wrapper {
+    padding: 5vw 2vw;
+  }
+}
