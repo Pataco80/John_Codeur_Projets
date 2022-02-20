@@ -213,6 +213,13 @@ a {
   text-decoration: none;
 }
 
+.button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.35rem;
+  padding: 1rem;
+}
+
 header,
 main,
 nav,
@@ -282,6 +289,37 @@ main {
   font-weight: bold;
 }
 
+.section-banner {
+  background-image: url('../images/main.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 25rem;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5vw;
+}
+
+.banner__title {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+}
+
+.button__banner,
+.button__circuits__article {
+  background-color: #ff7a00;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.button__banner:hover,
+.button__circuits__article:hover {
+  background-color: #02b8dd;
+}
+
 @media all and (min-width: 35rem) {
   .section,
   .wrapper {
@@ -340,5 +378,9 @@ main {
 
   .header-navigation__link {
     padding: 0 0.5rem;
+  }
+
+  .banner__wrapper {
+    min-height: 45rem;
   }
 }
