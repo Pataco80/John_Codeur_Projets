@@ -17,11 +17,12 @@ Cours proposés par John Codeur que je reprend en métant au goût du jour.
 
 **Le dossier contien à la racine un fichier index.html et du css pour l'usage de Go Live de VS Code Studio**
 .
-├── .css
-├ ├── normalize.css
-├ └── normalize.css
 ├── Projets_HTML_CSS
 ├ └── Travel_Agency-v1
+├
+├── css
+├ ├── normalize.css
+├ └── styles.css
 ├── index.html
 ├── LICENSE.md
 └── README.md
